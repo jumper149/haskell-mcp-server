@@ -37,6 +37,7 @@ import qualified Data.Text                as T
 import qualified Data.Text.Encoding       as TE
 import           Data.Text.Encoding.Error (lenientDecode)
 import           Network.HTTP.Types
+import           Network.HTTP.Types.Header
 import qualified Network.Wai              as Wai
 import qualified Network.Wai.Handler.Warp as Warp
 import           System.IO                (hPutStrLn, stderr)
