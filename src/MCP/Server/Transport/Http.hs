@@ -51,6 +51,7 @@ import           MCP.Server.RequestState (StateCodec, ephemeralStateCodec)
 import           MCP.Server.Protocol (allVersions, modernVersions,
                                       supportedVersions)
 import           MCP.Server.Types
+import           MCP.Server.Types.Header
 
 -- | HTTP transport configuration following the MCP Streamable HTTP specification
 --
